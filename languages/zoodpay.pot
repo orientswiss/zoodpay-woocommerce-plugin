@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-11 15:41+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ZD_add_setting_page.php:17
+msgid "Zoodpay Payment"
+msgstr ""
+
+#: ZD_add_setting_page.php:19
+msgid "Zoodpay payment gateway"
+msgstr ""
+
+#: ZD_add_setting_page.php:111
+msgid "Enable/Disable"
+msgstr ""
+
+#: ZD_add_setting_page.php:113
+msgid "Enable Zoodpay Payments"
+msgstr ""
+
+#: ZD_add_setting_page.php:125
+msgid "Title *"
+msgstr ""
+
+#: ZD_add_setting_page.php:129
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ZD_add_setting_page.php:131
+msgid "ZoodPay Buy Now Pay Later"
+msgstr ""
+
+#: ZD_add_setting_page.php:139
+msgid "Description"
+msgstr ""
+
+#: ZD_add_setting_page.php:143
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ZD_add_setting_page.php:151
+msgid "API URL"
+msgstr ""
+
+#: ZD_add_setting_page.php:155
+msgid "Place the payment gateway API URL."
+msgstr ""
+
+#: ZD_add_setting_page.php:163
+msgid "Merchant Key *"
+msgstr ""
+
+#: ZD_add_setting_page.php:171
+msgid "Merchant Secret Key * "
+msgstr ""
+
+#: ZD_add_setting_page.php:179
+msgid "Salt Key *"
+msgstr ""
+
+#: ZD_add_setting_page.php:187
+msgid "T&C URL"
+msgstr ""
+
+#: ZD_add_setting_page.php:191
+msgid "Place the T&C URL."
+msgstr ""
+
+#: ZD_add_setting_page.php:200
+msgid "Market Code"
+msgstr ""
+
+#: ZD_add_setting_page.php:226
+msgid "Language Code"
+msgstr ""
+
+#: ZD_add_setting_page.php:265
+msgid "Refund URL"
+msgstr ""
+
+#: ZD_add_setting_page.php:272
+msgid "IPN URL"
+msgstr ""
+
+#: ZD_add_setting_page.php:286
+msgid "Get Configuration"
+msgstr ""
+
+#: ZD_add_setting_page.php:297
+msgid "API healthcheck"
+msgstr ""
+
+#: ZD_add_setting_page.php:309 ZD_add_setting_page.php:379
+msgid "Please Enter Zoodpay Marchent Key"
+msgstr ""
+
+#: ZD_add_setting_page.php:318 ZD_add_setting_page.php:388
+msgid "Please Enter Zoodpay Secret Key"
+msgstr ""
+
+#: ZD_add_setting_page.php:327
+msgid "Please Enter Zoodpay Salt Key"
+msgstr ""
+
+#: ZD_add_setting_page.php:503
+msgid "The title is required"
+msgstr ""
+
+#: ZD_add_setting_page.php:527
+msgid "The T&C URL is required"
+msgstr ""
+
+#: ZD_add_setting_page.php:551
+msgid "The API URL is required"
+msgstr ""
+
+#: ZD_add_setting_page.php:575
+msgid "Looks like you made a mistake with the Zoodpay Merchant Key field."
+msgstr ""
+
+#: ZD_add_setting_page.php:607
+msgid ""
+"Looks like you made a mistake with the Zoodpay Merchant Secret Key field."
+msgstr ""
+
+#: ZD_add_setting_page.php:638
+msgid "Looks like you made a mistake with the Zoodpay Salt Key field."
+msgstr ""
+
+#: ZD_add_setting_page.php:786 ZD_add_setting_page.php:820
+msgid "Transaction type"
+msgstr ""
+
+#: ZD_add_setting_page.php:848
+msgid "Select zoodpay payment method"
+msgstr ""
+
+#: ZD_add_setting_page.php:1116
+msgid ""
+"There is issue for connecting payment gateway. Sorry for the inconvenience."
+msgstr ""
+
+#: ZD_add_setting_page.php:1220
+msgid "Refund Request"
+msgstr ""
+
+#: zoodpay.php:18
+msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
+msgstr ""
+
+#: zoodpay.php:29
+msgid ""
+"Woocommerce plugin is deactivate, please activate woocommerce plugin first "
+"to use zoodpay paymets ."
+msgstr ""
+
+#: zoodpay.php:38
+#, php-format
+msgid ""
+"Zoodpay requires WooCommerce %1$s or greater to be installed and active. "
+"WooCommerce %2$s is no longer supported."
+msgstr ""
+
+#: zoodpay.php:45
+msgid "zoodpay default payment success page."
+msgstr ""
+
+#: zoodpay.php:54
+msgid "zoodpay default payment fail page."
+msgstr ""
+
+#: zoodpay.php:101
+msgid "Settings"
+msgstr ""
+
+#: zoodpay.php:193 zoodpay.php:225
+msgid "success"
+msgstr ""
+
+#: zoodpay.php:244
+msgid "Birth date"
+msgstr ""
+
+#: zoodpay.php:403 zoodpay.php:417
+msgid "Refund Initiated"
+msgstr ""
+
+#: zoodpay.php:408
+#, php-format
+msgid "Refund Initiated <span class=\"count\">(%s)</span>"
+msgid_plural "Refund Initiated <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: zoodpay.php:581
+msgid "ZoodPay Refund Details"
+msgstr ""
