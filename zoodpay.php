@@ -1,24 +1,33 @@
 <?php
 /**
  * Plugin Name: Zoodpay
- * Description: Plugin Used Zoodpay payment getway integration for Woocommerce.
+ * Description: Plugin Used ZoodPay payment gateway integration for Woocommerce.
  * Author: Zoodpay
- * Author URI: https://apidocs.staging.zoodpay.com/docs#/
- * Version: 1.0.4
+ * Author URI: https://api.zoodpay.com
+ * Version: 1.0.5
  * Requires at least: 4.0
- * Tested up to: 5.5
+ * Tested up to: 6
  * WC requires at least: 3.0
- * WC tested up to: 4.3
+ * WC tested up to: 6.6.1
  * Text Domain: zoodpay
+ * Domain Path: /languages
  * License: GPLv2 or later
  *
  */
+
+
+
 if ( ! function_exists( 'add_action' ) ) {
     _e( 'Hi there!  I\'m just a plugin, not much I can do when called directly.', 'zoodpay' );
     exit;
 }
 defined( 'ABSPATH' ) || exit;
+
+
 define( 'WC_ZOODPAY_MIN_WC_VER', '3.0' );
+
+
+
 /* Make sure WooCommerce is active */
 if ( ! in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     if ( ! function_exists( 'ZDP_admin_notice' ) ) {
@@ -33,6 +42,8 @@ if ( ! in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins',
 
     return;
 }
+
+
 
 function Zoodpay_wc_not_supported() {
 
@@ -202,10 +213,26 @@ function ZoodPay_get_configration() {
         }
         update_option( '_Zoodpay_config_status_', 'true', true );
         update_option( '_Zoodpay_Market_code_', sanitize_text_field( $_REQUEST['market_code'] ), true );
+
+		$i=0;
+		$availableServiceResult = __('Available to Operate', 'zoodpay') . "\r\n";
+		$availableServiceResult .=  "================================ \r\n";
+		$availableServiceResult .= __('Available Services','zoodpay') . ": \r\n";
+		$availableServiceResult .= "\r\n";
+		foreach ($result['configuration'] as $iValue) {
+			$availableServiceResult .= $i. ". " .$iValue['service_code'] . " ".__('LIMIT','zoodpay')." -> " .$iValue['min_limit']  ." ". get_option('woocommerce_currency'). " - ". $iValue['max_limit']." ". get_option('woocommerce_currency') . "\r\n";
+			$i++;
+		}
+
+		single_update_option_serialized('services',$availableServiceResult,'woocommerce_zoodpay_settings');
+
         esc_html_e( "success" );
+
     } else {
-        update_option( '_Zoodpay_config_status_', 'false', true );
-        _e( $return );
+		single_update_option_serialized('services', __('No Service is Available'),'woocommerce_zoodpay_settings');
+		update_option( '_Zoodpay_config_status_', 'false', true );
+
+		_e( $return );
         exit;
     }
     exit;
@@ -309,7 +336,7 @@ if ( ! function_exists( 'Zoodpay_get_private_order_notes' ) ) {
         SELECT *
         FROM $table_perfixed
         WHERE  `comment_post_ID` = $order_id
-        AND  `comment_type` LIKE  'order_note' AND  comment_approved = 1  ORDER by  comment_ID DESC LIMIT 1 
+        AND  `comment_type` LIKE  'order_note' AND  comment_approved = 1  ORDER by  comment_ID DESC LIMIT 1
     " );
 
         foreach ( $results as $note ) {
@@ -401,7 +428,7 @@ function Zoodpay_add_admin_scripts( $hook ) {
     if ( isset( $post->ID ) ) {
         $type = get_post_meta( $post->ID, "_transaction_type", true );
         if ( $hook == 'post-new.php' || $hook == 'post.php' ) {
-            if ( 'shop_order' === $post->post_type && $type == "ZPI" || $type == "PAD" ) {
+            if ( 'shop_order' === $post->post_type && ($type == "ZPI" || $type == "PAD") ) {
                 wp_enqueue_script( 'plugin-script', plugin_dir_url( __FILE__ ) . 'assest/js/custom.js' );
             }
         }
@@ -672,4 +699,31 @@ function Zoodpay_default_payment_gateway() {
         $default_payment_id = 'zoodpay';
         WC()->session->set( 'chosen_payment_method', $default_payment_id );
     }
+}
+
+function single_update_option_serialized($opt_key,$opt_val,$opt_group){
+	// get options-data as it exists before update
+	$options = get_option($opt_group);
+
+	// update it
+	$options[$opt_key] = $opt_val;
+
+	// store updated data
+	update_option($opt_group,$options);
+
+}
+
+// Localize our plugin.
+add_action( 'init', 'load_plugin_translations' );
+
+/**
+ * Load plugin translation file
+ */
+function load_plugin_translations() {
+
+	load_plugin_textdomain(
+			'zoodpay',
+			false,
+			dirname( plugin_basename( __FILE__ ) ) . '/languages'
+	);
 }

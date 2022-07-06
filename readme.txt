@@ -2,9 +2,9 @@
 Contributors: zoodpay, w3developer
 Tags : Buy Now Pay Later, Payment Gateway, Payment, Deferred Payment, e-commerce, zoodpay, checkout, wocommerce, 
 Requires at least: 4.4
-Tested up to: 5.8
+Tested up to: 6
 Requires PHP: 7.0 or higher
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,6 +26,7 @@ Zoodpay is an amazing payment solution for local merchants as well as Cross bord
 * Jordan(JO)
 * Kingdom Of Saudi Arabia(KSA)
 * Kuwait(KW)
+* Lebanon(LB)
 
 
 == HOW TO GET STARTED ==

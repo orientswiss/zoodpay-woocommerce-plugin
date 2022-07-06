@@ -3,213 +3,219 @@
 # https://wpml.org
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version:WPML_EXPORT_zoodpay\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language:ar\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: ru_RU\n"
 
 #:
 #:
 #:
 # wpml-name: f5f08b43eb7eb2439beb09f3adf5f602
 msgid "Please Enter Zoodpay Salt Key"
-msgstr "Пожалуйста введите Zoodpay Salt key"
+msgstr "Zoodpay Salt kalitini kiriting"
 
 # wpml-name: dcc3d884d2aef04364c15a7098115a4c
 msgid "Please Enter Zoodpay Secret Key"
-msgstr "Пожалуйста введите Zoodpay Secret Key"
+msgstr "Zoodpay maxfiy kalitini kiriting"
 
 # wpml-name: 86a5499474308660fa0633a693cdc8db
 msgid "Please Enter Zoodpay Marchent Key"
-msgstr "Пожалуйста введите Zoodpay Merchant Key"
+msgstr "Zoodpay sotuvchi kalitini kiriting"
 
 # wpml-name: 4a1ebe0de5576caac65f5ecb75c23840
 msgid "Looks like you made a mistake with the Zoodpay Salt Key field."
-msgstr "Похоже, что вы допустили ошибку в поле Zoodpay Salt Key field."
+msgstr "Zoodpay Salt kaliti maydonini toʻldirishda xatoga yoʻl qoʻyganga oʻxshaysiz."
 
 # wpml-name: 085fbc96aebaa274b448e24d018ac86d
 msgid "Looks like you made a mistake with the Zoodpay Merchant Secret Key field."
-msgstr "Похоже, что вы допустили ошибку в поле Zoodpay Merchant Secret Key."
+msgstr "Zoodpay sotuvhi maxfiy kaliti maydonini toʻldirishda xatoga yo‘l qo‘yganga o‘xshaysiz."
 
 # wpml-name: eb001bc814472321082f3294fa737fdd
 msgid "Looks like you made a mistake with the Zoodpay Merchant Key field."
-msgstr "Похоже, что вы допустили ошибку в поле Zoodpay Merchant Key."
+msgstr "Zoodpay sotuvchi kaliti maydonini toʻldirishda xatoga yo‘l qo‘yganga o‘xshaysiz."
 
 # wpml-name: 05df625a4fba4d3446a0f6e547da0a59
 msgid "The API URL is required"
-msgstr "Не введен API URL"
+msgstr "API URL manzilini belgilang"
 
 # wpml-name: ea855445ece58ad90ab6b7f8ad7f3a4e
 msgid "The T&C URL is required"
-msgstr "Не введен T&C URL"
+msgstr "T&C URL manzilini belgilang"
 
 # wpml-name: 0691ce54362749d6dc2aa2f32c4af494
 msgid "The title is required"
-msgstr "Не введен заголовок"
+msgstr "Sarlavha talab qilinadi"
 
 # wpml-name: 2f7a4911024368d5dd4e03ec9dd9566f
 msgid "Refund Request"
-msgstr "Запрос Возврата"
+msgstr "To'lovni qaytarish talabi"
 
 # wpml-name: 882aa49278adc8fbb08e65421ff3c7f8
 msgid "There is issue for connecting payment gateway. Sorry for the inconvenience."
-msgstr "Проблема подключения к платежному сервису. Извините за неудобства."
+msgstr "Toʻlov tizimiga ulanishda muammo yuz berdi. Noqulaylik uchun uzr so'raymiz."
 
 # wpml-name: de5251ef8f8a02a17fd8713049e96b15
 msgid "Select zoodpay payment method"
-msgstr "Выберите метод оплаты Zoodpay"
+msgstr "Zoodpay toʻlov usulini tanlang"
 
 # wpml-name: 384036f8b0067ec3bb710a92f8734b3b
 msgid "Transaction type"
-msgstr "Тип транзакции"
+msgstr "Tranzaktsiya turi"
 
 # wpml-name: dc723b1296302e8969e11166441bc778
 msgid "API healthcheck"
-msgstr "Проверка работоспособности API"
+msgstr "API Healthcheck"
 
 # wpml-name: 2e8f9a94a40c8e305a0fcb25b35b8809
 msgid "Get Configuration"
-msgstr "Получить Конфигурацию"
+msgstr "Konfiguratsiyani yuklab olish"
 
 # wpml-name: 0815fadbb71e44e411d729c98a97360c
 msgid "IPN URL"
-msgstr "IPN URL"
+msgstr "IPN manzili"
 
 # wpml-name: 861f65c6659770c0058fdd3cd0e24e7d
 msgid "Refund URL"
-msgstr "URL для возвратов"
+msgstr "Qaytish URL manzil"
 
 # wpml-name: 32e24b0772629ec41145845076f2f172
 msgid "Language Code"
-msgstr "Код языка"
+msgstr "Til kodi"
 
 # wpml-name: 4b834306094ef3ed0ccf064414e358c6
 msgid "Market Code"
-msgstr "Код рынка"
+msgstr "Bozor kodi"
 
 # wpml-name: eb56da7465aa56cfda9dbeb36744aff8
 msgid "Place the T&C URL."
-msgstr "Укажите URL T&C"
+msgstr "T&C URL manzilini joylashtiring."
 
 # wpml-name: 5b723fad2b5fda9644775fb6e015dc60
 msgid "T&C URL"
-msgstr "T&C URL"
+msgstr "T&C URL manzili"
 
 # wpml-name: f5e206f48c5ac1e7d2dffb8daec564f9
 msgid "Salt Key *"
-msgstr "Salt Key *"
+msgstr "Salt kaliti*"
 
 # wpml-name: 76503423d3f9020f9863a656354c8fcd
 msgid "Merchant Secret Key * "
-msgstr "Merchant Secret Key * "
+msgstr "Sotuvchi maxfiy kaliti **"
 
 # wpml-name: 8c91eafd4fc2ba183fa569961c36b07c
 msgid "Merchant Key *"
-msgstr "Merchant Key *"
+msgstr "Sotuvchi kalit*"
 
 # wpml-name: 5c58313e697f6e9d0c9b50529ce2e2bf
 msgid "Place the payment gateway API URL."
-msgstr "Укажите API URL платежного сервиса."
+msgstr "Toʻlov tizimining API URL manzilini joylashtiring."
 
 # wpml-name: 1f37743cdcdef44b3d80e8c166c6c3ce
-msgid "API MODE"
-msgstr "API Режим"
+msgid "API URL"
+msgstr "API URL"
 
 # wpml-name: d3e3cf6d33a674b41429bb8cccf35b9a
 msgid "This controls the description which the user sees during checkout."
-msgstr "Управление описанием, которое видет клиент при оформлении заказа."
+msgstr "Bu foydalanuvchi toʻlov vaqtida koʻradigan tavsifni boshqaradi."
 
 # wpml-name: b5a7adde1af5c87d7fd797b6245c2a39
 msgid "Description"
-msgstr "Описание"
+msgstr "Tavsif"
 
 # wpml-name: 65faea8b9942b1b3ba762eb98094bdfc
 msgid "ZoodPay Buy Now Pay Later"
-msgstr "ZoodPay Покупай Сейчас Плати Потом"
+msgstr "ZoodPay Hozir xarid qiling, keyinroq toʻlang"
 
 # wpml-name: d534f73a10ad1b0882a90698f719b41d
 msgid "This controls the title which the user sees during checkout."
-msgstr "Управление заголовком, который видит клиент при оформлении заказа."
+msgstr "Bu foydalanuvchi to'lov vaqtida ko'radigan sarlavhani boshqaradi."
 
 # wpml-name: ba3e9b5629a3a64f5375166fe26ef589
 msgid "Title *"
-msgstr "Заголовок *"
+msgstr "Nomi*"
 
 # wpml-name: 1d68961c3ce865d1fd59bcfc083f07cd
 msgid "Enable Zoodpay Payments"
-msgstr "Включить Платежи Zoodpay"
+msgstr "Zoodpay toʻlovlarini yoqish"
 
 # wpml-name: e566fe9aef1502d69ccdbe28e1957535
 msgid "Enable/Disable"
-msgstr "Включить/Выключить"
+msgstr "yoqish / o'chirish"
 
 # wpml-name: 35ced7a06e8770b80f783b4d7306062f
 msgid "Zoodpay payment gateway"
-msgstr "Платежный шлюз Zoodpay"
+msgstr "Zoodpay to'lov tizimi"
 
 # wpml-name: 9f0910274a9bcea3d3bb3cd6cd08034d
 msgid "Zoodpay Payment"
-msgstr "Zoodpay РАССРОЧКА"
+msgstr "Zoodpay to'lovi"
 
 # wpml-name: 6710c7f4625d990f0ec05d45d081d5a6
 msgid "Woocommerce plugin is deactivate, please activate woocommerce plugin first to use zoodpay payments."
-msgstr "Плагин Woocommerce деактивирован, пожалуйста, сначала активируйте плагин woocommerce, чтобы использовать платежи zoodpay."
+msgstr "Woocommerce plagini o‘chirilgan, zoodpay to‘lovlaridan foydalanish uchun avval woocommerce plaginini faollashtiring."
 
 # wpml-name: 7a2de1fc4ccab94426d2cffb49e276db
 msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
-msgstr "Привет! Я плагин, не много я могу сделать если используюсь напрямую."
+msgstr "Salom! Men shunchaki plaginman, bevosita chaqirilganda ko'p narsa qila olmayman."
 
 # wpml-name: 722e7619ab82c5b3212fe84733cc626a
 msgid "Zoodpay requires WooCommerce %1$s or greater to be installed and active. WooCommerce %2$s is no longer supported."
-msgstr "Zoodpay требует, чтобы был установлена и активна WooCommerce версия была %1$s или выше. WooCommerce %2$s больше не поддерживается."
+msgstr "Zoodpay oʻrnatilishi va faol boʻlishi uchun WooCommerce %1$s yoki undan yuqoriroq boʻlishi talab qilinadi. WooCommerce %2$s endi qo‘llanmaydi."
 
 # wpml-name: 064b81587f2289a84fba0eb5a6df52d6
 msgid "ZoodPay Refund Details"
-msgstr "Детали по Возвратам ZoodPay"
+msgstr "ZoodPay toʻlovini qaytarish haqida batafsil maʼlumot"
 
 # wpml-name: 5632d48694cd7ae0dcaca598f1dd90a5
 msgid "Refund Initiated"
-msgstr "Возврат Инициирован"
+msgstr "to'lovni qaytarib berish boshlandi"
 
 # wpml-name: 9c37b7b6ff829e977df287900543ea54
 msgid "Birth date"
-msgstr "Дата рождения"
+msgstr "Tug'ilgan sana"
 
 # wpml-name: f4f70727dc34561dfde1a3c529b6205c
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Sozlamalar"
 
 # wpml-name: be72b6184408f356c7e6bcbe0a7db81f
 msgid "zoodpay default payment fail page."
-msgstr "Страница Ошибки платежа по умолчанию"
+msgstr "zoodpay muvaffaqiyatsiz to'lovning standart sahifasi."
 
 # wpml-name: f7998d95634cbee19f3a16b8f6c9c38f
 msgid "zoodpay default payment success page."
-msgstr "Страница Успешного платежа по умолчанию"
+msgstr "zoodpay muvaffaqiyatli to'lovning standart  sahifasi."
 
 #: zoodpay.php:207
 msgid "Available to Operate"
-msgstr "Доступен для работы"
+msgstr "Ish uchun mavjud"
 
 #: zoodpay.php:211
 msgid "Available Services"
-msgstr "Доступные сервисы"
+msgstr "Mavjud xizmatlar"
 
 #: zoodpay.php:211
 msgid "LIMIT"
-msgstr "Лимит"
+msgstr "Limit"
+
 #: ZD_add_setting_page.php:141
 msgid "ZoodPay BNPL"
-msgstr "ZoodPay РАССРОЧКА"
+msgstr "ZoodPay MUDDATLI TO'LOV"
 
 #: ZD_add_setting_page.php:155
 
 msgid "ZoddPay Description"
-msgstr "Описание - Покупайте товары онлайн с ZoodPay без комиссий и переплат 4 платежа с первоначальным взносом."
+msgstr "ZoodPay bilan komissiyasiz va ortiqcha toʻlovlarsiz boshlang'ich toʻlov bilan 4-ta toʻlovda mahsulotlarni onlayn xarid qiling"
+
+# wpml-name: 1f37743cdcdef44b3d80e8c166c6c3ce
+msgid "API MODE"
+msgstr "API REJIM"
+
+msgid "No Service is Available"
+msgstr "Xizmat mavjud emas"
